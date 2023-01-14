@@ -30,6 +30,8 @@
 
 * Running all these commands may show results like this:
 ![Image](https://cdn.discordapp.com/attachments/794151037766336524/1063638580687273984/image.png)
+
+
 * To log out of your remote connection, press 'Ctrl + D'. 
 ---
 Congratulations! You have finished setting up remote access to your course account!
