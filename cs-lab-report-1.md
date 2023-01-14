@@ -12,7 +12,7 @@
 `ssh cs15lwi23adi@ieng6.ucsd.edu` 
 * Once you type this in and press enter, the following prompt should show up. 
 `Password:`
-* Type in your password (the characters will not show up on the command) and press enter when you are complete. This should remotely connect you to your account.
+* Type in your password (the characters will not show up on the command) and press enter when you are complete. This should remotely connect you to your account. If you see a message such as `Are you sure you want to continue connecting (yes/no/]fingerprint])?`, type in `yes` and proceed. 
 * Your terminal should look like this: 
 ![Image](https://media.discordapp.net/attachments/794151037766336524/1063638163907690657/image.png?width=1440&height=460)
 
