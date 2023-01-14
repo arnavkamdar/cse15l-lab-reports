@@ -8,6 +8,7 @@
 
 ## Step 2: Remotely Connecting
 * The first step in remotely connecting is to open up a terminal in your VS code. To do this, click on `Terminal --> New Terminal` in the menu bar. 
+* To remotely connect to your account, type `ssh`, followed by a space, followed by your course-specific email account. This will have the syntax `username@ieng6.ucsd.edu`. The command line I used was 
 `ssh cs15lwi23adi@ieng6.ucsd.edu` 
 * Once you type this in and press enter, the following prompt should show up. 
 `Password:`
