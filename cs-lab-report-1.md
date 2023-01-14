@@ -33,5 +33,5 @@
 
 
 * To log out of your remote connection, press 'Ctrl + D'. 
----
+
 Congratulations! You have finished setting up remote access to your course account!
