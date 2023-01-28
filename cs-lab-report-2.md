@@ -1,6 +1,6 @@
-# __**Servers and Bugs (Lab Report 2)**__
+# __Servers and Bugs (Lab Report 2)__
 ---
-## __**Part 1:**__
+## __Part 1:__
 
 To design the StringServer class, I built upon the NumberServer class that we had previously used in the lab. I implemented a method that searched for the word to be added and displayed it in the form of one continuous, concatenated string with line breaks. Following is the code I used for StringServer, as well as the code for the Handler class that performs all the operations. 
 
@@ -67,7 +67,7 @@ After this, I used the following messages in the search bar:
 
 ---
 
-## __**Part 2:**__ 
+## __Part 2:__ 
 
 - For this part, I chose to use the `ArrayExamples` class and the method `averageWithoutLowest`. This method is meant to return the average of a set of numbers, excluding the single lowest number. 
 
@@ -147,7 +147,7 @@ This was the code after fixing the bug:
 
 
 ---
-## __**Part 3:**__
+## __Part 3:__
 
 While I did know JUnit Testing due to prior experience with the PA, one new thing I learnt during the lab sessions was how to set up an online server using Java. I intially did not understand a lot of what was taught in class, but working at the lab made it much easier to break down the code into parts I could understand. These lab sessions were particularly unique because this was the first time I saw Java interact with another platform. 
 
