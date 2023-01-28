@@ -56,14 +56,15 @@ After this, I used the following messages in the search bar:
 ![Image](https://media.discordapp.net/attachments/794151037766336524/1068779889232199730/image.png?width=1440&height=356)
 * For this message, the method called in my code was `handleRequest`, under the `Handler` class. 
 * The argument used in calling this method was the URI that was typed into the search bar, 'http://localhost:1306/add-message?s=Never%20Gonna%20Give%20You%20Up'. 
+* The instance variable `listTodisplay` is currently an empty string. 
 * From this, the method extracted the query `s?Never%20Gonna%20Give%20You%20Up` and separated the string "Never Gonna Give You Up" from it. 
-* The instance variable `listToDisplay` keeps a track of what is displayed on the screen, and is duly updated with the query and a linebreak after the string is extracted. 
+* The variable `listToDisplay` keeps a track of what is displayed on the screen, and is duly updated with the query and a linebreak after the string is extracted. 
 
-![Image](https://media.discordapp.net/attachments/794151037766336524/1068782579488141352/image.png?width=1440&height=358)
+![Image](https://media.discordapp.net/attachments/794151037766336524/1068786411370717254/image.png?width=1440&height=313)
 * For this message, the method called in my code was once again `handleRequest`, under the `Handler` class. 
-* The argument used in calling this method was the URI typed into the search bar, 'http://localhost:1306/search?s=Never%20Gonna%20Let%20You%20Down'. 
-* From this, the method attempted to find the query after `/add` but could not find it, since the phrase `/add` does not exist in the url. 
-* As a result, no instance variables are updated (since the if statement is not executed) and the phrase `404 Not Found!` is returned. 
+* The argument used in calling this method was the URI typed into the search bar, 'http://localhost:1306/add-message?s=Never%20Gonna%20Let%20You%20Down'. 
+* At this point, the instance variable `listToDisplay` already contains "Never Gonna Give You Up", and is now appended with "Never Gonna Let You Down" and a linebreak afterwards.
+* As a result, `listToDisplay` is updated and the phrase `Never Gonna Give You Up \n Never Gonna Let You Down` is returned. 
 
 ---
 
