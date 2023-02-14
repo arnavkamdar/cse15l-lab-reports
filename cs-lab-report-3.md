@@ -29,6 +29,7 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt:The Spaniards never bothere
 The instances of Lucayans, on git bash, are colored red so that the user may locate them. As evidenced here, the command has browsed through every file in written_2 and outputted the two results of "Lucayans" that it has found, both in the same file, `Bahamas-History.txt`. 
 
 ### Example 2: Using `grep -r` to find the word "freely" within a single text file. 
+```
 <code><i>Input: </i>
 $ grep -r "freely" written_2/non-fiction/OUP/Fletcher/ch10.txt
 
@@ -37,6 +38,7 @@ Under modern capitalism there are many conditions that render choices less than 
 </code>
 
 As seen above, the word "freely" has been found even when a file is given in the input command. `grep -r` therefore allows a user to thoroughly search for a string, be it in a file or repository. 
+```
 
 ## Command 2: **`grep -n`**
 `grep -n` is a tool that allows a user to see the line number at which a string is found within a file. It can only be used on a file (not a directory), unless `grep -r` is used in concatenation with it. The line number is printed at the beginning of each output result. 
