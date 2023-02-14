@@ -74,10 +74,11 @@ $ grep -n "outside" written_2/travel-guide written_2/travel_guides/berlitz2/
 Paris-WhatToDo.txt
 Output: 
 40:Small children are bound to enjoy the merry-go-round, puppet theaters (outside July 
-and August), and pony rides in the Jardin du Luxembourg. They can also watch the toy boats 
-capsize in the fountain. For the scientifically minded, there’s a great deal to learn 
-painlessly in the Cité des Sciences et de l’Industrie at La Villette (see page 72). The 
-Palais de la Découverte (see page 75) makes use of a similar hands-on approach.
+and August), and pony rides in the Jardin du Luxembourg. They can also watch the toy 
+boats capsize in the fountain. For the scientifically minded, there’s a great deal to 
+learn painlessly in the Cité des Sciences et de l’Industrie at La Villette (see page 
+72). The Palais de la Découverte (see page 75) makes use of a similar hands-on 
+approach.
 41:Some 30 km (20 miles) outside Paris at Marne-la-Vallée, the Disneyland Paris Resort 
 could keep kids happy for several days (see page 80). Fans of the Astérix comics about 
 ancient Gaul and the Romans will enjoy the Parc Astérix theme park, near Autoroute A1 
