@@ -70,7 +70,8 @@ The source where I learnt about this command was the [same website](https://www.
 
 ```
 Input: 
-$ grep -n "outside" written_2/travel-guide written_2/travel_guides/berlitz2/Paris-WhatToDo.txt
+$ grep -n "outside" written_2/travel-guide written_2/travel_guides/berlitz2/
+Paris-WhatToDo.txt
 Output: 
 40:Small children are bound to enjoy the merry-go-round, puppet theaters (outside July 
 and August), and pony rides in the Jardin du Luxembourg. They can also watch the toy boats 
