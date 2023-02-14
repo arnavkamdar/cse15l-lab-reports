@@ -57,7 +57,7 @@ the illusion of freely choosing not a hole bored in his ear but rather numerous 
 holes bored in his veins.
 ```
 
-As seen above, the word "freely" has been found even when a file is given in the input command. `grep -r` therefore allows a user to thoroughly search for a string, be it in a file or repository. 
+As seen above, the word "freely" has been found (colored in red on git bash, and highlighted in the original version of this report[^1]) even when a file is given in the input command. `grep -r` therefore allows a user to thoroughly search for a string, be it in a file or repository. 
 
 ## Command 2: **`grep -n`**
 `grep -n` is a tool that allows a user to see the line number at which a string is found within a file. It can only be used on a file (not a directory), unless `grep -r` is used in concatenation with it. The line number is printed at the beginning of each output result. 
@@ -138,7 +138,7 @@ tourists a boisterous floor show in the old tradition. The rest of Pigalle plumb
 the lower depths with a certain fascinating glee.
 ```
 
-The command's utility is evident: "modern" and "Modern" were both located by this command, something that would not have occured without `-i`. This is therefore useful in searching, as most users will not think to search for all case sensitive combinations.
+The command's utility is evident: "modern" and "Modern" were both located by this command (on git bash, colored in red), something that would not have occured without `-i`. This is therefore useful in searching, as most users will not think to search for all case sensitive combinations.
 
 ### Example 2: Using `grep -i` along with `grep -n` and `grep -r` to find case-insensitive instances of the word "Whale-watching" in a repository.
 
@@ -180,7 +180,7 @@ from the Bahamas to work — and die — in Spanish gold mines and on farms and 
 fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
 ```
 
-As evidenced by the code, the command found the string "As for" and returned all characters between "As for" and ".". 
+As evidenced by the code, the command found the string "As for" and returned all characters between "As for" and ".". This is more evident on git bash, where the actual result would have a different font color.
 
 ### Example 2: Using `grep "string1.*string2` to find sentences containing "Lucayans" in the file Bahamas-History.txt.
 
@@ -212,7 +212,7 @@ and on farms and pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in
 the Caribbean.
 ```
 
-Running the code above led me to realize a small setback of using this command. In the first result, there is a period right after the word Lucayans, but the search ends at the period of the next sentence. While I initially thought that the search would end at the first instance of string2, I realized here that it ends at the last instance of string2 in the given line. Thus, if more than one sentence is present in one line, the utility of this function could be reduced. 
+Running the code above led me to realize a small setback of using this command. In the first result, there is a period right after the word Lucayans, but the search ends at the period of the next sentence (as per git bash coloring of the result). While I initially thought that the search would end at the first instance of string2, I realized here that it ends at the last instance of string2 in the given line. Thus, if more than one sentence is present in one line, the utility of this function could be reduced. 
 
 This highlights the importance of hands-on testing, as I would not have made this discovery by simply reading the website's description of the command. 
 
