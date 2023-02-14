@@ -69,7 +69,7 @@ Output:
 Jardin du Luxembourg. They can also watch the toy boats capsize in the fountain. For the scientifically minded, there’s a
 great deal to learn painlessly in the Cité des Sciences et de l’Industrie at La Villette (see page 72). The Palais de la 
 Découverte (see page 75) makes use of a similar hands-on approach.
-Some 30 km (20 miles) outside Paris at Marne-la-Vallée, the Disneyland Paris Resort could keep kids happy for several days
+41:Some 30 km (20 miles) outside Paris at Marne-la-Vallée, the Disneyland Paris Resort could keep kids happy for several days
 (see page 80). Fans of the Astérix comics about ancient Gaul and the Romans will enjoy the Parc Astérix theme park, near 
 Autoroute A1 between Roissy (Charles-de-Gaulle airport) and Senlis, open April to October; Tel. 03 44 62 34 34. France 
 Miniature is a 5-hectare (7.5-acre) relief map of France including model villages, châteaux, and monuments to a scale 
