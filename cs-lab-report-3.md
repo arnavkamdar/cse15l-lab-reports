@@ -102,7 +102,7 @@ The usage of this command is `grep -i "search string" file-path/file-name`, and 
 
 I learnt about this command from the [same source](https://www.computerhope.com/unix/ugrep.htm) as I did the other commands.
 
-### Example 1: Using `grep -n` to find the instances of the word "outside" within a single text file. 
+### Example 1: Using `grep -i` to find the instances of the word "outside" within a single text file. 
 
 ```
 Input: 
