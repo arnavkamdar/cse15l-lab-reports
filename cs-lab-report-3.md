@@ -1,6 +1,7 @@
-# Lab Report 3: Usage of the command 'Grep'
+# Lab Report 3: Usage of the command 'grep'[^1]
+[^1]: In this lab report, I used many new markdown features that I learnt about such as footnotes, highlighting, justifying text, and line breaks. This is my [markdown document](https://github.com/arnavkamdar/cse15l-lab-reports/blob/main/cs-lab-report-3.md) where I did all this work!
 
-For this lab report, I researched the linux command 'grep', coming across various intricacies and interesting command options in its usage. I have summarized four of these commands, which shall be highlighted below. 
+For this lab report, I researched the linux command 'grep', coming across various intricacies and interesting command options in its usage. I have summarized four of these commands, which shall be explained below. 
 
 ## Command 1: **`grep -r`**
 `grep -r` is a tool that recursively searches through repositories. Most `grep` commands must be executed on a specific file to search the file, but this allows a user to specifically search directories and every file within them. `-r` is therefore a very powerful tool, as it enables a user to search every file within a requested repository. One instance where this is useful is if a teacher wants to find a student's information via their name in a repository where each student's information is saved on a different text file. 
@@ -11,8 +12,8 @@ The source where I learnt about this command was [this website](https://www.comp
 
 Following are some examples of `grep -r`'s usage. 
 
-### Example 1: Using `grep -r` to find the word "Lucayans" within a repository of text files.[^1]
-[^1]: This example is derived from my solution to the [skill demonstration](https://edstem.org/us/courses/31260/discussion/2510885).
+### Example 1: Using `grep -r` to find the word "Lucayans" within a repository of text files.[^2]
+[^2]: This example is derived from my solution to the [skill demonstration](https://edstem.org/us/courses/31260/discussion/2510885).
 
 
 <code><i>Input:</i></code>
@@ -90,7 +91,7 @@ As seen above, two commands can be used together to achieve a required output. U
 ## Command 3: **`grep -i`**
 `grep -i` is a command that makes a search case-insensitive; that is, it finds all instances of a string regardless of whether letters are uppercase or lowercase in it.  It can only be used on a file (not a directory), unless `grep -r` is used in concatenation with it. This is very useful, as some words may appear at the beginning of sentences and be excluded from a normal `grep` search, as the first letter would be in uppercase. 
 
-The usage of this command is `grep -i "SeArCh StRiNg" file-path/file-name`, and will search for "search string", "SEARCH STRING", and every possible combination of uppercase and lowercase letters in between. 
+The usage of this command is `grep -i "search string" file-path/file-name`, and will search for "search string", "SEARCH STRING", and every possible combination of uppercase and lowercase letters in between. 
 
 I learnt about this command from the [same source](https://www.computerhope.com/unix/ugrep.htm) as I did the other commands.
 
@@ -103,8 +104,10 @@ I learnt about this command from the [same source](https://www.computerhope.com/
 <div style="text-align: justify">
 <code><i>Output:</i></code>
 <br> 
-<code>The large <mark>modern</mark> shopping malls include the Forum des Halles, Centre Maine-Montparnasse, and the Palais des Congrès at Porte Maillot.
-<mark>Modern</mark> dance is enjoying a revival, with a new wave of small, imaginative companies beginning modestly enough at the Café de la Danse (passage Louis-Philippe) and Théâtre Garnier before reaching the heights of the Théâtre de la Bastille.</code>
+<code>The large <mark>modern</mark> shopping malls include the Forum des Halles, Centre Maine-Montparnasse, and the Palais des Congrès at Porte Maillot.</code>
+</div>
+<div style="text-align:justify">
+<code><mark>Modern</mark> dance is enjoying a revival, with a new wave of small, imaginative companies beginning modestly enough at the Café de la Danse (passage Louis-Philippe) and Théâtre Garnier before reaching the heights of the Théâtre de la Bastille.</code>
 </div>
 <div style="text-align: justify"> 
 <code>Floor shows keep the “naughty” image of Paris alive. The Folies Bergères (rue Richer), which launched the careers of Josephine Baker, Mistinguett, and Maurice Chevalier, and the Lido on the Champs-Elysées are both classic survivors. The most famous <mark>modern</mark>-day floor show, erotic, brilliantly choreographed, and bordering on chic, is at the Crazy Horse Saloon (avenue George V). Toulouse-Lautrec painted the showgirls of the Moulin Rouge (place Blanche) a century ago, and it still offers tourists a boisterous floor show in the old tradition. The rest of Pigalle plumbs the lower depths with a certain fascinating glee.</code>
@@ -173,4 +176,4 @@ This highlights the importance of hands-on testing, as I would not have made thi
 These are a few interesting commands I came across when researching how to use the command `grep`!
 
 ---
-[^2]: In this lab report, I used many new markdown features that I learnt about such as footnotes, highlighting, justifying text, and line breaks. This is my [markdown document](https://github.com/arnavkamdar/cse15l-lab-reports/blob/main/cs-lab-report-3.md) where I did all this work!
+
