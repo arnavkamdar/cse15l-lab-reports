@@ -1,5 +1,5 @@
 # Lab Report 3: Usage of the command 'grep'[^1]
-[^1]: In this lab report, I used many new markdown features that I learnt about such as footnotes, highlighting, justifying text, and line breaks. This is my [markdown document](https://github.com/arnavkamdar/cse15l-lab-reports/blob/main/cs-lab-report-3.md) where I did all this work!
+[^1]: In this lab report, I used many new markdown features that I learnt about such as footnotes, highlighting, justifying text, and line breaks. This is my [markdown document](https://raw.githubusercontent.com/arnavkamdar/cse15l-lab-reports/main/cs-lab-report-3.md) where I did all this work!
 
 For this lab report, I researched the linux command 'grep', coming across various intricacies and interesting command options in its usage. I have summarized four of these commands, which shall be explained below. 
 
