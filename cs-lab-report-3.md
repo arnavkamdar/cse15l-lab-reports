@@ -173,3 +173,4 @@ This highlights the importance of hands-on testing, as I would not have made thi
 These are a few interesting commands I came across when researching how to use the command `grep`!
 
 ---
+[^2]: In this lab report, I used many new markdown features that I learnt about such as footnotes, highlighting, justifying text, and line breaks. This is my [markdown document](https://github.com/arnavkamdar/cse15l-lab-reports/blob/main/cs-lab-report-3.md) where I did all this work!
