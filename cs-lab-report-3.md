@@ -121,12 +121,10 @@ The instances of modern have been highlighted by me for ease of viewing, but the
 <div style="text-align: justify">
 <code><i>Output:</i></code>
 <br>
-<code>written_2/travel_guides/berlitz1/WhatToLosAngeles.txt:212:        try a gondola cruise at Long Beach. <mark>Whale-watching</mark> expeditions are also</code>
+<code>written_2/travel_guides/berlitz1/WhatToLosAngeles.txt:212:try a gondola cruise at Long Beach. <mark>Whale-watching</mark> expeditions are also</code>
 </div>
 <div style="text-align: justify"> 
-<code>written_2/travel_guides/berlitz1/WhereToLosAngeles.txt:858:        of the region. It’s also a prime spot for <mark>whale-watching</mark> during the
-<br>
-<br>
+<code>written_2/travel_guides/berlitz1/WhereToLosAngeles.txt:858:of the region. It’s also a prime spot for <mark>whale-watching</mark> during the
 ...
 </code>
 </div>
