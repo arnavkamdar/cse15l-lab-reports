@@ -32,7 +32,7 @@ _Keyboard Sequence used:_ `<Ctrl + R> git clone <tab> <enter>`
 
 _Keyboard Sequence used:_ `cd lab7 <enter> <Ctrl + R> javac <tab> <enter> <Ctrl + R> java -cp <tab> <enter>`
 - First, I used `cd lab7` to change the working directory to the cloned directory lab7, and then used `<Ctrl + R>` to open my search history, searched for `javac`, and pressed `<tab>` and `<enter>`. This used the command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and compiled all the java files in lab7. 
-- Then, I used `<Ctrl + R>`, `java -cp`, `<tab>`, and `<enter>` in a similar fashion to run the java file `TestListExamples.java` using the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`. 
+- Then, I used `<Ctrl + R>`, `java -cp`, `<tab>`, and `<enter>` in a similar fashion to run the java file `ListExamplesTests.java` using the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. 
 - Had I used just `<Ctrl + R>` and `java`, pressing tab would autofill the javac command, which is why I had to specify `java -cp` so that the terminal knew it was a java command I wanted to search for. 
 
 
