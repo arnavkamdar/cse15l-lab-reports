@@ -4,6 +4,7 @@
 **Steps 1-3:** Make a fork of the [repo](https://github.com/ucsd-cse15l-w23/lab7) in your personal account and delete any other existing forks you may have, then start the timer. 
 
 **Step 4: Log into ieng6.**
+
 ![image](https://media.discordapp.net/attachments/984886152156811315/1078838969606873258/image.png?width=1250&height=656)
 
 _Keyboard sequence used:_ `<up><enter>`
@@ -14,9 +15,11 @@ _Keyboard sequence used:_ `<up><enter>`
 **Step 5: Clone your fork of the repository from your Github account.**
 
 Using `<Ctrl+R>`: 
+
 ![image](https://cdn.discordapp.com/attachments/984886152156811315/1078840188429676554/image.png)
 
 Output: 
+
 ![image](https://user-images.githubusercontent.com/122496384/221326322-bf5a818a-2251-4cf8-bf32-70e99e7195d9.png)
 
 _Keyboard Sequence used:_ `<Ctrl + R> git clone <tab> <enter>`
@@ -24,6 +27,7 @@ _Keyboard Sequence used:_ `<Ctrl + R> git clone <tab> <enter>`
 - Thus, I used `<Ctrl + R>` to access my search history, typed in `git clone` to find the first git clone command, used `<tab>` to print the full line on my terminal, and entered it to clone it from my github's personal ssh url. 
 
 **Step 6: Run the tests, demonstrating that they fail.**
+
 ![image](https://cdn.discordapp.com/attachments/984886152156811315/1078853511011385344/image.png)
 
 _Keyboard Sequence used:_ `cd lab7 <enter> <Ctrl + R> javac <tab> <enter> <Ctrl + R> java -cp <tab> <enter>`
@@ -35,9 +39,11 @@ _Keyboard Sequence used:_ `cd lab7 <enter> <Ctrl + R> javac <tab> <enter> <Ctrl 
 **Step 7: Edit the code file to fix the failing test.**
 
 Using `nano`:
+
 ![image](https://media.discordapp.net/attachments/984886152156811315/1078843758797389925/image.png)
 
 Editing the file:
+
 ![image](https://cdn.discordapp.com/attachments/984886152156811315/1078844998054858762/image.png)
 
 _Keyboard Sequence used:_ `nano ListExamples.java <enter> <Ctrl + W> index1 += 1 <enter> <Ctrl + W> <enter> <Ctrl + W> <enter> <right> <right> <right> <right> <right> <delete> 2 <Ctrl + O> <enter> <Ctrl + X>`
@@ -47,6 +53,7 @@ _Keyboard Sequence used:_ `nano ListExamples.java <enter> <Ctrl + W> index1 += 1
 - After this, I used `<Ctrl + O>` and `<enter>` to save the file, and `<Ctrl + X>` to exit the nano interface.
 
 **Step 8: Run the tests, demonstrating that they now succeed.**
+
 ![image](https://cdn.discordapp.com/attachments/984886152156811315/1078853745896587354/image.png)
 
 _Keyboard Sequence used:_ `<up><up><up><enter><up><up><up><enter>`
@@ -54,6 +61,7 @@ _Keyboard Sequence used:_ `<up><up><up><enter><up><up><up><enter>`
 - The `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests.java` command was 3 up in the search history, so I used the up arrow to access it. 
 
 **Step 9: Commit and push the resulting change to your Github account.**
+
 ![image](https://media.discordapp.net/attachments/984886152156811315/1078855354059849878/image.png)
 
 _Keyboard Sequence used:_ `<Ctrl + R> git commit <tab> <enter>`
