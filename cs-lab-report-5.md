@@ -2,7 +2,8 @@
 ---
 For this lab report, I chose to redo Lab Report 4 with a (in my opinion) far more efficient method of executing a large number of functions: using a bash script. In the following report, I will explain how each step can be converted into part of a bash script. 
 
-**Steps 1-4**
+**Steps 1-4:**
+
 These steps cannot be made any simpler by the usage of a bash script, as they require manual work on the part of the user. Step 4 requires the user to log in to their remote account, and while this can be done on a bash script (for example, simply typing `ssh cs15lwi23adi@ieng6.ucsd.edu`), the bash script failed to execute further for me inside the remote account. Thus, the bash script should be made in the home directory of your remote account. 
 
 Create a bash script by using the command `nano labreport4quick.sh` in your home directory. This should open an interface as such: 
