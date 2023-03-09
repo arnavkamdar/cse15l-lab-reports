@@ -77,11 +77,13 @@ This is what my final bash script looked like:
 
 
 Upon running it in my main working directory on my remote account, this is what the output looked like: 
+
 ![image](https://media.discordapp.net/attachments/984886152156811315/1083250152766181468/image.png?width=630&height=655)
 
 As seen, the repository was cloned, the tests run (and failed), the file edited, the tests run again (and succeeded), and the commit made and pushed.
 
 Going to my forked repository on github, the changes did indeed show up: 
+
 ![image](https://cdn.discordapp.com/attachments/984886152156811315/1083250436842205244/image.png)
 ![image](https://cdn.discordapp.com/attachments/984886152156811315/1083250727822045244/image.png)
 
