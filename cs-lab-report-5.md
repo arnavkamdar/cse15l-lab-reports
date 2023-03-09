@@ -22,10 +22,10 @@ First, change the working directory to lab7. For this, type into your bash scrip
 `cd lab7`
 
 To run the tests, I simply used the commands 
-```
+`
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
-```
+`
 All one has to do is to copy these lines into the bash script. 
 
 **Step 7: Edit the code file to fix the failing test.**
@@ -41,10 +41,10 @@ Research led me to [this website](https://www.gnu.org/software/sed/manual/sed.ht
 **Step 8: Run the tests, demonstrating that they now succeed.**
 
 As above, simply copy the lines 
-```
+`
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
-```
+`
 into the bash script, and this part of the code will run the tests. 
 
 **Step 9: Commit and push the resulting change to your Github account.**
@@ -56,7 +56,7 @@ To finally close and save your bash script, use `<Ctrl + O>` to save, and `<Ctrl
 **Final Bash Script:**
 
 This is what my final bash script looked like: 
-```
+`
 git clone git@github.com:arnavkamdar/lab7.git
 cd lab7
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
@@ -65,7 +65,7 @@ sed -i '43s/index1/index2/' ListExamples.java
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 git commit -am "M" && git push
-```
+`
 
 Upon running it in my main working directory on my remote account, this is what the output looked like: 
 ![image](https://media.discordapp.net/attachments/984886152156811315/1083250152766181468/image.png?width=630&height=655)
