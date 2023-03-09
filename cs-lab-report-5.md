@@ -47,6 +47,8 @@ into the bash script, and this part of the code will run the tests.
 
 In my lab report 4, I used the command `git commit -am "M" && git push` to commit the change with the commit message "M", and push it to the origin all in one line. Here, I reused this line, pasting it into my bash script. 
 
+To finally close and save your bash script, use `<Ctrl + O>` to save, and `<Ctrl + X>` to exit.
+
 **Final Bash Script:**
 
 This is what my final bash script looked like: 
