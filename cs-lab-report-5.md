@@ -30,9 +30,13 @@ All one has to do is to copy these lines into the bash script.
 
 **Step 7: Edit the code file to fix the failing test.**
 
-This was a very tricky step to resolve by writing a bash script. In my fourth lab report, I used the `nano` interface to edit my file. However, here, I want the computer to automate all the editing, and not require any further input from me. Research led me to [this website](https://www.gnu.org/software/sed/manual/sed.html), which helped me understand how to do this. I used the command `sed`, which edits specific words/lines in a file without requiring any further user input. The command I typed into the bash script was 
+This was a very tricky step to resolve by writing a bash script. In my fourth lab report, I used the `nano` interface to edit my file. However, here, I want the computer to automate all the editing, and not require any further input from me. 
+Research led me to [this website](https://www.gnu.org/software/sed/manual/sed.html), which helped me understand how to do this. I used the command `sed`, which edits specific words/lines in a file without requiring any further user input. The command I typed into the bash script was 
 `sed -i '43s/index1/index2/' ListExamples.java`
-Here, the `sed` command, as mentioned, is the basis for editing a file. The `-i` command added on allows the file to be edited without output redirection, as the standard for the `sed` command is to redirect the changes into a new output file. However, we want to simply edit `ListExamples.java` here and not create a new file. Now, the `43s/index1/index2/` changes the second argument passed, `index1`, to the third argument passed, `index2`, as this is the change we need to make to fix the bug. `43` represents the line number at which this change would be made, as otherwise, this command would alter every single instance of `index1` in the file, which is not the behavior we want.
+- Here, the `sed` command, as mentioned, is the basis for editing a file. 
+- The `-i` command added on allows the file to be edited without output redirection, as the standard for the `sed` command is to redirect the changes into a new output file. However, we want to simply edit `ListExamples.java` here and not create a new file. 
+- Now, the `43s/index1/index2/` changes the second argument passed, `index1`, to the third argument passed, `index2`, as this is the change we need to make to fix the bug. 
+- `43` represents the line number at which this change would be made, as otherwise, this command would alter every single instance of `index1` in the file, which is not the behavior we want.
 
 **Step 8: Run the tests, demonstrating that they now succeed.**
 
