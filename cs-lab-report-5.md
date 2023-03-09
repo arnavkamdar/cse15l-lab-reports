@@ -14,7 +14,7 @@ Now, we need to make the entire bash script in this file, so don't close this un
 
 **Step 5: Clone your fork of the repository from your Github account.**
 
-Since the command I used here was simply `git clone git@github.com:arnavkamdar/lab7.git`, I just typed this into the bash script. This is the ssh key for my fork of the lab7 repository. 
+Since the command I used here was simply `git clone git@github.com:arnavkamdar/lab7.git`, I just typed this into the bash script. This uses the ssh key for my fork of the lab7 repository. 
 
 **Step 6: Run the tests, demonstrating that they fail.**
 
