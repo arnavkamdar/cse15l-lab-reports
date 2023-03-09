@@ -60,12 +60,19 @@ To finally close and save your bash script, use `<Ctrl + O>` to save, and `<Ctrl
 This is what my final bash script looked like: 
 
 `git clone git@github.com:arnavkamdar/lab7.git`
+
 `cd lab7`
+
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
+
 `sed -i '43s/index1/index2/' ListExamples.java`
+
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`
+
 `git commit -am "M" && git push`
 
 
